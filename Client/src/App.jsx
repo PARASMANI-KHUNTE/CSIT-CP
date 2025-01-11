@@ -1,13 +1,15 @@
 import {BrowserRouter , Routes , Route} from "react-router-dom"
 import './App.css'
-import Landi
-function App() {
 
+import Home from "./Panels/Home"
+
+
+const App = () => {
   return (
     <>
       <BrowserRouter>
       <Routes>
-        <Route element={} />
+        <Route path="/" element={<Home />} />
       </Routes>
       </BrowserRouter>
     </>
@@ -15,3 +17,4 @@ function App() {
 }
 
 export default App
+
